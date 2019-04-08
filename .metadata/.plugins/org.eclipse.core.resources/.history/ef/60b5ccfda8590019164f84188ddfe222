@@ -1,0 +1,4 @@
+spring.datasource.url=jdbc:mysql://localhost/socialbooks
+spring.datasource.username=root
+spring.datasource.password=
+Timezone=true&serverTimezone=UTC

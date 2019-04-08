@@ -1,0 +1,12 @@
+package com.example.socialbooks.domain;
+
+import java.util.Date;
+
+public class Comentario {
+	
+	private long id;
+	private String texto;
+	private String usuario;
+	private Date data;
+
+}

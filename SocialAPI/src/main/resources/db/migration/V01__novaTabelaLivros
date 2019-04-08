@@ -1,0 +1,4 @@
+create table livros {
+	id bigint auto_increment not null,
+	nome varchar(50) not null,
+	
