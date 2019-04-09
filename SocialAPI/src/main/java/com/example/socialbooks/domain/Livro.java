@@ -2,13 +2,11 @@ package com.example.socialbooks.domain;
 
 import java.io.Serializable;
 import java.util.Date;
-import java.util.List;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.Transient;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonInclude.Include;
@@ -34,9 +32,9 @@ public class Livro implements Serializable {
 	@JsonInclude(Include.NON_NULL)
 	private String resumo;
 	
-	@JsonInclude(Include.NON_NULL)
-	@Transient
-	private List<Comentario> comentarios;
+//	@JsonInclude(Include.NON_NULL)
+//	@Transient
+//	private List<Comentario> comentarios;
 	
 	@JsonInclude(Include.NON_NULL)
 	private String autor;
@@ -71,12 +69,12 @@ public class Livro implements Serializable {
 	public void setResumo(String resumo) {
 		this.resumo = resumo;
 	}
-	public List<Comentario> getComentarios() {
-		return comentarios;
-	}
-	public void setComentarios(List<Comentario> comentarios) {
-		this.comentarios = comentarios;
-	}
+//	public List<Comentario> getComentarios() {
+//		return comentarios;
+//	}
+//	public void setComentarios(List<Comentario> comentarios) {
+//		this.comentarios = comentarios;
+//	}
 	public String getAutor() {
 		return autor;
 	}
