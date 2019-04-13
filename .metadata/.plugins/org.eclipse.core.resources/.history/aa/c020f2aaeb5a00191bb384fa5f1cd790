@@ -1,0 +1,5 @@
+package com.example.socialbooks.handler;
+
+public class ResourceExceptionHandler {
+
+}
