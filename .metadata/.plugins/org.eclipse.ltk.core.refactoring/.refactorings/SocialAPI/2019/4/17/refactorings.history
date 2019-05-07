@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;LivroNaoEncontradoException.java&apos; to &apos;SocialAPI/src/main/java/com.example.socialbooks.services.exceptions&apos;&#x0D;&#x0A;- Original project: &apos;SocialAPI&apos;&#x0D;&#x0A;- Destination element: &apos;SocialAPI/src/main/java/com.example.socialbooks.services.exceptions&apos;&#x0D;&#x0A;- Original element: &apos;com.example.socialbooks.services.exceptions.LivroNaoEncontradoException.java&apos;" description="Copy compilation unit" destination="/src\/main\/java&lt;com.example.socialbooks.services.exceptions" element1="/src\/main\/java&lt;com.example.socialbooks.services.exceptions{LivroNaoEncontradoException.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1555986640653" units="1" version="1.0"/>
+</session>
